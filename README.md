@@ -10,6 +10,13 @@
 - ✅ 中文语音提醒：“别摸鱼了，别摸鱼了”
 - ✅ 支持 macOS 打包成 App
 
+专注状态：
+<img width="1470" height="956" alt="0f03cc45a2e967b536fb4222a2e389d1" src="https://github.com/user-attachments/assets/a30cf314-a5b6-4a0e-ad94-2f316a3dc780" />
+玩手机时物体检测：
+<img width="1470" height="956" alt="f32c50c878bca2261ee5666a9addb5e3" src="https://github.com/user-attachments/assets/22aac7ef-f462-47eb-9647-06a4d3113820" />
+检测异常手部抬高：
+<img width="1470" height="956" alt="0eb7879ecb0af985f57cb6064611c8c5" src="https://github.com/user-attachments/assets/5ea31d67-0984-4cc2-b182-2040091da039" />
+
 ## 运行环境
 - Python 3.11
 - macOS (M 系列测试通过)
