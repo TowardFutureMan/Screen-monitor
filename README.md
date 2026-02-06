@@ -34,24 +34,32 @@ pip install -r requirements.txt
 👉 https://www.python.org/downloads/
 
 安装后打开终端，输入：
+```
 python3 --version
-
+```
 如果显示 Python 3.11.x 就可以继续。
 
 ## 2. 下载项目
 打开终端，输入：
+```
 git clone https://github.com/TowardFutureMan/Screen-monitor.git
 cd Screen-monitor
-
+```
 ## 3. 创建虚拟环境
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ## 4. 安装依赖
+```
 pip install -r requirements.txt
+```
 
 ## 5. 运行程序
+```
 python attention_monitor.py
+```
 运行后会弹出窗口，点击“开始监控”即可。
 
 6. 摄像头权限
@@ -62,7 +70,9 @@ python attention_monitor.py
 
 
 ## （可选）打包成 App
+```
 bash scripts/build_mac_app.sh
+```
 生成文件位置：
 dist/AttentionMonitor.app
 第一次打开 App，请右键 → 打开。
