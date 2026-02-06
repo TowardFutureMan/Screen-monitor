@@ -25,3 +25,44 @@
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+# 本地运行教程（小白版）
+
+## 1. 准备环境
+请确保电脑已安装 **Python 3.11**（推荐）  
+如果没有，请先安装：  
+👉 https://www.python.org/downloads/
+
+安装后打开终端，输入：
+python3 --version
+
+如果显示 Python 3.11.x 就可以继续。
+
+## 2. 下载项目
+打开终端，输入：
+git clone https://github.com/TowardFutureMan/Screen-monitor.git
+cd Screen-monitor
+
+## 3. 创建虚拟环境
+python3 -m venv venv
+source venv/bin/activate
+
+## 4. 安装依赖
+pip install -r requirements.txt
+
+## 5. 运行程序
+python attention_monitor.py
+运行后会弹出窗口，点击“开始监控”即可。
+
+6. 摄像头权限
+第一次运行会弹出摄像头权限提示，请点击 允许。
+如果没有弹出：
+打开 系统设置 → 隐私与安全性 → 摄像头
+勾选 Terminal / Cursor / VS Code
+
+
+## （可选）打包成 App
+bash scripts/build_mac_app.sh
+生成文件位置：
+dist/AttentionMonitor.app
+第一次打开 App，请右键 → 打开。
